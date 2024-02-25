@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ebebeb;
+}
+.sub-container {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding: 15px;
+}
+.section, .heading {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+#input-bar {
+  padding: 10px;
+  border-radius: 5px;
+  margin-block: 8px;
+}
+#btn {
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
